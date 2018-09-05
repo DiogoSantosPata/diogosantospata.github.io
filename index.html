@@ -81,7 +81,7 @@ $ git push origin master -->
       color: #555555;
   }
   .bg-4 { 
-      background-color: #03396c; /* Black Gray */
+      background-color: #1b75b3; /* Black Gray */
       color: #fff;
   }
 
@@ -106,12 +106,18 @@ $ git push origin master -->
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      /*color: #1abc9c !important;*/
+      color: #89bff8 !important;
   }
 
   a {
-    color: #6497b1;    
+    color: #89bff8;
    }
+
+   a:hover {
+    background-color: white;
+}
+
 
    .col-sm-5 {
   padding-right:50px;
@@ -144,8 +150,8 @@ $ git push origin master -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#">ME</a></li>         -->
-        <li><a href="#publications">PUBLICATIONS</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#work">WORK</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -157,7 +163,7 @@ $ git push origin master -->
 
 
 <!-- First Container -->
-<div class="container-fluid bg-4 text-center"> 
+<div class="container-fluid bg-4 text-center" > 
   <img src="photo_profile.png" class="img-responsive img-circle img-thumbnail" style="display:inline"  width="250" height="250"> 
   <h3> Neuroscience | Data Science | Machine learning | Robotics</h3>
 </div>
@@ -199,7 +205,7 @@ $ git push origin master -->
 
 
 
-<div class="container-fluid bg-2 text-center">
+<div class="container-fluid bg-2 text-center" id="about" >
   
   <h3 class="margin">About</h3>
             <p> I am a postdoctoral researcher at the
@@ -209,10 +215,12 @@ $ git push origin master -->
 
 
 
-<div class="container-fluid bg-3 text-center"  >
+
+
+<div class="container-fluid bg-3 text-center" id="work">
   
         <a href="https://scholar.google.pt/citations?user=blFhsLsAAAAJ&hl=en&oi=ao" target="_blank">
-        <div class="col-sm-5 ml-md-auto font_in_cols">
+        <div class="col-sm-5 ml-md-auto font_in_cols" >
         <h1 class="margin" style="background-color : white;" >Publications</h1>
         <img src="brain.png">
         </div>
@@ -221,7 +229,7 @@ $ git push origin master -->
 
         <a href="https://github.com/DiogoSantosPata" target="_blank">
         <div class="col-sm-5 ml-md-auto font_in_cols" >
-        <h3 class="margin" style="background-color : white;" >Source code</h3>                        
+        <h3 class="margin" style="background-color : white;" >Github</h3>                        
         <img src="gitlab.jpg">        
         </div>
         </a>
