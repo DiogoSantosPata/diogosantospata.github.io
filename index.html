@@ -343,5 +343,23 @@ git push origin master
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
 <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
 <script src="js/custom.js"></script>
+
+
+<script type="text/javascript">
+// make page load twice for propert CSS/style display (should fix it)
+$(document).ready(function(){    	
+    //Check if the current URL contains '#'
+    if(document.URL.indexOf("#")==-1){
+        // Set the URL to whatever it was plus "#".
+        url = document.URL+"#";
+        location = "#";        
+        //Reload the page
+        location.reload(true);
+
+    }
+});
+</script>
+
+
 </body>
 </html>
