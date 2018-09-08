@@ -209,14 +209,20 @@ footer .glyphicon {
 
 
 
+
+
+
+
+
 /*Timeline related*/
 .bold{font-weight:bold;}
-.time{position:absolute; left:-110px;}
+.time{position:absolute; left:-120px;}
 .timeline-wrapper {
 padding-left:80px;
 min-width: 400px;
-font-family: 'Helvetica';
-font-size: 14px;
+/*font-family: 'Helvetica';*/
+font: 100 15px Lato, sans-serif;
+/*font-size: 14px;*/
 /*border: 1px solid #CCC;*/
 }
 .StepProgress {
