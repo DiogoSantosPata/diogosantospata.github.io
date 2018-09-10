@@ -302,13 +302,34 @@ display: block;
 
 
 
-
-/**/
-
-.vertical-center {
-  /*min-height: 100%;
-  min-height: 100vh;*/
-
-  /*display: flex;*/
-  align-items: center;
+/*new time line */
+/*#############*/
+.right-content, .left-content {
+  float:left;
+  /*display:block;*/
+  /*width:100%;*/
+  padding:1% 2%;
+}
+.left-content {
+  border-right:5px dotted #813772;
+  /*text-align:right;*/
+}
+.left-content p {
+  margin:15px 0 0;
+}
+.right-content p {
+  margin:8px 0 50px;
+}
+.container p {
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7 ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out; 
+}
+.left-content .more-padding {
+  padding-right:0px;
+}
+.right-content .more-padding {
+  padding-left:0px;
 }
