@@ -44,9 +44,7 @@ a{ color : var(--main-color);}
 }
 .bg-grey {
     /*background-color: #f6f6f6;    */
-    background-color: var(--main-color-background);
-
-    
+    background-color: var(--main-color-background);   
 }
 .logo-small {
     color: var(--main-color);    
