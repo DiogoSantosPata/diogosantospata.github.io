@@ -290,7 +290,9 @@ git push origin master
       <div class="carousel-inner" role="listbox">
 
         <div class="item active">
+          <a onclick="on()">
           <img class="d-block w-100" src="images/work/cricket.png" style="margin: auto">
+          </a>
           <h4>Insect Arcade: Imersive virtual reality for insect navigation</h4>                
         </div>
 
@@ -330,6 +332,33 @@ git push origin master
 
   </div>
 </div>
+
+
+
+<!-- play cricket video -->
+<div id="overlay" onclick="off()" style="z-index:1500;">
+<div class="container">
+      <br><br>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe  src="https://www.youtube.com/embed/ReD1klbPJBQ?rel=0&amp;controls=0&amp;showinfo=0&amp;start=26;end=81;autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" >
+        </iframe>
+        </div>
+
+</div>
+</div>
+
+
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+
+
 
 
 
